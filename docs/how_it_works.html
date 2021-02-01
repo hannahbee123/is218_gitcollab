@@ -50,12 +50,31 @@
         <div class="col-8">
             <div id="content">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper ullamcorper velit, vitae
-                    euismod urna sodales ut. Nunc mollis sem dolor, rhoncus cursus turpis blandit vel. Nam hendrerit
-                    blandit ligula at maximus. Donec placerat egestas lacus, quis eleifend mauris vehicula vel. Fusce
-                    lobortis porttitor placerat. In et risus gravida, dignissim lacus id, laoreet dolor. In maximus
-                    felis non nibh aliquam, sit amet ullamcorper libero imperdiet. Donec eget sapien in elit feugiat
-                    rutrum. Nulla lorem ex, gravida nec velit ac, tempor posuere sapien.
+                    GitFlow is a branching model for Git and is used widely for projects that require collaboration and
+                    team efforts. It serves as a methodical approach to utilizing branching in a manner that is
+                    organized and effective.
+                </p>
+                <p>
+                    New features and non-emergency bug fixes are built in <b>feature</b> branches. Feature branches pull
+                    from the <b>develop</b> branch. When the finished features and fixes are finished, they are merged
+                    back into the develop branch. A <b>release</b> branch is built off of the develop branch.
+                </p>
+                <p>
+                    To test for issues in the release branch, the code in the release branch should be placed in an
+                    environment suitable for testing. This way, any problems in the release branch are fixed directly in
+                    that branch. This testing cycle can be repeated until the code is finalized.
+                </p>
+                <p>
+                    Once the release branch is finished, it is merged into both the <b>master</b> branch and develop
+                    branch. It’s important to merge the release branch into both master and develop because it prevents
+                    the loss of any new development. The master branch should only track released code and its only
+                    commits should be via merges from the release branch and <b>hotfix</b> branch.
+                </p>
+                <p>
+                    The purpose of hotfix branches is to create any emergency fixes. These should branch directly from
+                    the master branch. When finished with the hotfix branch, it should be merged back into both the
+                    master branch and develop branch. Merging the hotfix branch into both the master and develop branch
+                    ensures that any emergency fixes are not accidentally lost when the next release occurs.
                 </p>
             </div>
         </div>
