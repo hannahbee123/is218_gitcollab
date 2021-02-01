@@ -1,0 +1,125 @@
+/* Invention.html styling*/
+.invention-main .first-section,.browser-main .first-section
+{
+    margin-top: 20px;
+}
+.invention-section .col-8
+{
+    margin: 15px 0;
+}
+/* End of Invention.html styling */
+
+/* browser_wars.html styling*/
+.browser-main .browser-section .row
+{
+    margin: 30px 0;
+}
+
+.browser-main .sixth-section .col-lg-8
+{
+    margin-top: 20px;
+}
+/* browser_wars.html styling */
+
+/* internet_search styling & People styling */
+.search-main .search-section
+{
+    margin: 20px 0;
+}
+
+.search-section h4, .search-section .row
+{
+    margin-bottom: 15px;
+}
+/*----------------------*/
+
+/* internet_search styling & People styling for smaller screens*/
+@media (max-width: 800px)
+{
+    .search-section .row img, .people-main .people-section, .row img
+    {
+        margin: 30px 0;
+    }
+}
+/*----------------------*/
+
+/* Dot com bubble styling and People styling */
+.dot-main .dot-section .row, .people-main .people-section, .row
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.dot-main .dot-section .row h4, .people-main .people-section, .row h4
+{
+    margin-bottom: 15px;
+}
+/*----------------------*/
+
+/* About and Team content styling */
+#content {
+    max-width: 690px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+figcaption {
+    max-width: 700px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+/* footer on all pages */
+.footer {
+    margin: auto;
+}
+
+/* footer text on all pages */
+.footer-text {
+    font-size: small;
+}
+
+/* container for home card */
+.home-card {
+    max-width: 700px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* about container */
+.about-header {
+    margin-bottom: 30px;
+}
+
+/* about image */
+.about-img {
+    max-width: 760px;
+}
+
+.about-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dns-section {
+    margin-top: 25px;
+}
+
+.http-section {
+    margin-top: 25px;
+}
+
+.icann-section {
+    margin-top: 25px;
+}
+
+.tim-section {
+    margin-top: 25px;
+}
+
+.w-section {
+    margin-top: 25px;
+}

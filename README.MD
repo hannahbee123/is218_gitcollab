@@ -4,4 +4,4 @@ Git Collab - IS 218 Team Website
    * Hannah Benjamin
     * Austin Lee
     
-2. Hosted on: 
+2. Hosted on: https://hannahbee123.github.io/is218_gitcollab/
