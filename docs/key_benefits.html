@@ -49,14 +49,41 @@
     <div class="row">
         <div class="col-8">
             <div id="content">
+                <h5>Parallel Development</h5>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper ullamcorper velit, vitae
-                    euismod urna sodales ut. Nunc mollis sem dolor, rhoncus cursus turpis blandit vel. Nam hendrerit
-                    blandit ligula at maximus. Donec placerat egestas lacus, quis eleifend mauris vehicula vel. Fusce
-                    lobortis porttitor placerat. In et risus gravida, dignissim lacus id, laoreet dolor. In maximus
-                    felis non nibh aliquam, sit amet ullamcorper libero imperdiet. Donec eget sapien in elit feugiat
-                    rutrum. Nulla lorem ex, gravida nec velit ac, tempor posuere sapien.
+                    GitFlow streamlines parallel development because it isolates any new developments from work that is
+                    completed. Features and non-emergency bug fixes are only merged back into the master branch, i.e.
+                    the main body of code, once the person working on it has completed all of their tasks.
                 </p>
+                <p>
+                    This is particularly helpful when a developer needs to switch from one task to another and the
+                    original task has not been completed. To switch tasks, make sure to commit any changes before
+                    creating a new feature branch for the other task. When the other task is completed, checkout the
+                    initial feature branch that was being worked on and continue any tasks that remain incomplete.
+                </p>
+                <h5>Collaboration</h5>
+                <p>
+                    When two or more developers need to collaborate on the same feature, the use of feature branches
+                    makes it significantly easier. The only changes that should be in each feature branch are the
+                    changes needed for the new feature. This helps illustrate and clarify which collaborator has changed
+                    what features and how they changed them. When working in teams, it’s crucial to know exactly what
+                    each team member is working on or towards.
+                </p>
+                <h5>Release Staging Area</h5>
+                <p>
+                    The develop branch serves as a staging area for all the completed features that have not been
+                    officially released. As each new development is completed, it is merged back into the develop
+                    branch. This way, when developers branch new release branches from the develop branch, the release
+                    branch will have any new features that have been completed.
+                </p>
+                <h5>Support For Emergency Fixes</h5>
+                <p>
+                    Hotfix branches are branches that are made from a specific release branch. These branches are useful
+                    when emergency fixes need to be made. Creating a hotfix branch isolates the emergency fix from the
+                    other branches. This ensures that new developments are not accidentally merged when merging the
+                    hotfix branch back into the master and develop branch.
+                </p>
+
             </div>
         </div>
     </div>
